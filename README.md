@@ -2,6 +2,8 @@
 
 > 适用场景：Codex 客户端/插件登录时卡在「添加电话号码（add-phone）」页面，无法完成账号授权。
 
+🌐 **在线版**（单文件，图片内嵌，手机直接打开）：<https://nolaneight.github.io/codex-skip-phone-verification/>
+
 ## 核心原理
 
 通过在 ChatGPT 网页端提前开启「**高级账户安全**」，并利用 **OpenAI API Key** 在 Codex 中完成一次底层鉴权，刷新账号在 Codex 客户端的安全标记，从而跳过手机号绑定。
